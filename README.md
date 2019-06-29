@@ -5,8 +5,7 @@ su root
 #password  
 
 # For someone who did not install git  
-sudo yum install git-all  
-y  
+sudo yum install git-all -y  
 
 # start  
 groupadd oinstall  
@@ -16,11 +15,9 @@ passwd oracle
 #TYPE THE PASSWORD  
 
 git clone https://github.com/manbobo2002/Oracle-Install.git  
-rm /etc/sysctl.conf  
-y  
+rm /etc/sysctl.conf -y  
 mv /home/$USER/Oracle-Install/sysctl.conf /etc/sysctl.conf  
-rm /etc/security/limits.conf  
-y  
+rm /etc/security/limits.conf -y  
 mv /home/$USER/Oracle-Install/limits.conf /etc/security/limits.conf  
 yum groupinstall -y "X Window System"  
 
