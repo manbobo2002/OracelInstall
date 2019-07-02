@@ -83,5 +83,5 @@ ssh root@ip
 /u01/app/oracle/product/12.2.0/dbhome_1/root.sh  
 
 # Testing
-sqlplus / as sysdba
+sqlplus / as sysdba  
 alter user sys identified by yourpassword;
