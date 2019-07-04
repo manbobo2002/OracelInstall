@@ -59,22 +59,22 @@ cd /stage/database/
 
 # Oracle setting
 /*
-Oracle base: '/u01/app/oracle'
-Software location: /u01/app/oracle/product/12.1.0/dbhome_1
-Database file location: /u02
-Database edition: Default
-Character set: Default
-OSDBA group: dba
-Global database name: Type your own name
-Administrative password: Type your own password
-Confirm password: Type again
-Uncheck the 'Create as Container database'
+Oracle base: '/u01/app/oracle'  
+Software location: /u01/app/oracle/product/12.1.0/dbhome_1  
+Database file location: /u02  
+Database edition: Default  
+Character set: Default  
+OSDBA group: dba  
+Global database name: Type your own name  
+Administrative password: Type your own password  
+Confirm password: Type again  
+Uncheck the 'Create as Container database'  
 
-At 'Create Inventory', enter the path below:
+At 'Create Inventory', enter the path below:  
 
-Inventory Directory: /u01/app/oraInventory
+Inventory Directory: /u01/app/oraInventory  
 
-oraInventory Group Name: use 'oinstall' group.
+oraInventory Group Name: use 'oinstall' group.  
 */
 
 # After installation
